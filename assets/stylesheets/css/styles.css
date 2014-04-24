@@ -5,6 +5,7 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700);
 article,
 aside,
 details,
@@ -3205,449 +3206,9 @@ table {
     left: -10px;
     top: 50%;
     margin-top: -5px; } }
-.text-left {
-  text-align: left !important; }
-
-.text-right {
-  text-align: right !important; }
-
-.text-center {
-  text-align: center !important; }
-
-.text-justify {
-  text-align: justify !important; }
-
-@media only screen and (max-width: 40em) {
-  .small-only-text-left {
-    text-align: left !important; }
-
-  .small-only-text-right {
-    text-align: right !important; }
-
-  .small-only-text-center {
-    text-align: center !important; }
-
-  .small-only-text-justify {
-    text-align: justify !important; } }
-@media only screen {
-  .small-text-left {
-    text-align: left !important; }
-
-  .small-text-right {
-    text-align: right !important; }
-
-  .small-text-center {
-    text-align: center !important; }
-
-  .small-text-justify {
-    text-align: justify !important; } }
-@media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .medium-only-text-left {
-    text-align: left !important; }
-
-  .medium-only-text-right {
-    text-align: right !important; }
-
-  .medium-only-text-center {
-    text-align: center !important; }
-
-  .medium-only-text-justify {
-    text-align: justify !important; } }
-@media only screen and (min-width: 40.063em) {
-  .medium-text-left {
-    text-align: left !important; }
-
-  .medium-text-right {
-    text-align: right !important; }
-
-  .medium-text-center {
-    text-align: center !important; }
-
-  .medium-text-justify {
-    text-align: justify !important; } }
-@media only screen and (min-width: 64.063em) and (max-width: 90em) {
-  .large-only-text-left {
-    text-align: left !important; }
-
-  .large-only-text-right {
-    text-align: right !important; }
-
-  .large-only-text-center {
-    text-align: center !important; }
-
-  .large-only-text-justify {
-    text-align: justify !important; } }
-@media only screen and (min-width: 64.063em) {
-  .large-text-left {
-    text-align: left !important; }
-
-  .large-text-right {
-    text-align: right !important; }
-
-  .large-text-center {
-    text-align: center !important; }
-
-  .large-text-justify {
-    text-align: justify !important; } }
-@media only screen and (min-width: 90.063em) and (max-width: 120em) {
-  .xlarge-only-text-left {
-    text-align: left !important; }
-
-  .xlarge-only-text-right {
-    text-align: right !important; }
-
-  .xlarge-only-text-center {
-    text-align: center !important; }
-
-  .xlarge-only-text-justify {
-    text-align: justify !important; } }
-@media only screen and (min-width: 90.063em) {
-  .xlarge-text-left {
-    text-align: left !important; }
-
-  .xlarge-text-right {
-    text-align: right !important; }
-
-  .xlarge-text-center {
-    text-align: center !important; }
-
-  .xlarge-text-justify {
-    text-align: justify !important; } }
-@media only screen and (min-width: 120.063em) and (max-width: 99999999em) {
-  .xxlarge-only-text-left {
-    text-align: left !important; }
-
-  .xxlarge-only-text-right {
-    text-align: right !important; }
-
-  .xxlarge-only-text-center {
-    text-align: center !important; }
-
-  .xxlarge-only-text-justify {
-    text-align: justify !important; } }
-@media only screen and (min-width: 120.063em) {
-  .xxlarge-text-left {
-    text-align: left !important; }
-
-  .xxlarge-text-right {
-    text-align: right !important; }
-
-  .xxlarge-text-center {
-    text-align: center !important; }
-
-  .xxlarge-text-justify {
-    text-align: justify !important; } }
-/* Typography resets */
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-form,
-p,
-blockquote,
-th,
-td {
-  margin: 0;
-  padding: 0; }
-
-/* Default Link Styles */
-a {
-  color: #008cba;
-  text-decoration: none;
-  line-height: inherit; }
-  a:hover, a:focus {
-    color: #0078a0; }
-  a img {
-    border: none; }
-
-/* Default paragraph styles */
-p {
-  font-family: inherit;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.25rem;
-  text-rendering: optimizeLegibility; }
-  p.lead {
-    font-size: 1.21875rem;
-    line-height: 1.6; }
-  p aside {
-    font-size: 0.875rem;
-    line-height: 1.35;
-    font-style: italic; }
-
-/* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  color: #222222;
-  text-rendering: optimizeLegibility;
-  margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.4; }
-  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    font-size: 60%;
-    color: #6f6f6f;
-    line-height: 0; }
+  font-family: "Source Sans Pro", sans-serif; }
 
-h1 {
-  font-size: 2.125rem; }
-
-h2 {
-  font-size: 1.6875rem; }
-
-h3 {
-  font-size: 1.375rem; }
-
-h4 {
-  font-size: 1.125rem; }
-
-h5 {
-  font-size: 1.125rem; }
-
-h6 {
-  font-size: 1rem; }
-
-.subheader {
-  line-height: 1.4;
-  color: #6f6f6f;
-  font-weight: normal;
-  margin-top: 0.2rem;
-  margin-bottom: 0.5rem; }
-
-hr {
-  border: solid #dddddd;
-  border-width: 1px 0 0;
-  clear: both;
-  margin: 1.25rem 0 1.1875rem;
-  height: 0; }
-
-/* Helpful Typography Defaults */
-em,
-i {
-  font-style: italic;
-  line-height: inherit; }
-
-strong,
-b {
-  font-weight: bold;
-  line-height: inherit; }
-
-small {
-  font-size: 60%;
-  line-height: inherit; }
-
-code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: bold;
-  color: #bd260d; }
-
-/* Lists */
-ul,
-ol,
-dl {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.25rem;
-  list-style-position: outside;
-  font-family: inherit; }
-
-ul {
-  margin-left: 1.1rem; }
-  ul.no-bullet {
-    margin-left: 0; }
-    ul.no-bullet li ul,
-    ul.no-bullet li ol {
-      margin-left: 1.25rem;
-      margin-bottom: 0;
-      list-style: none; }
-
-/* Unordered Lists */
-ul li ul,
-ul li ol {
-  margin-left: 1.25rem;
-  margin-bottom: 0; }
-ul.square li ul, ul.circle li ul, ul.disc li ul {
-  list-style: inherit; }
-ul.square {
-  list-style-type: square;
-  margin-left: 1.1rem; }
-ul.circle {
-  list-style-type: circle;
-  margin-left: 1.1rem; }
-ul.disc {
-  list-style-type: disc;
-  margin-left: 1.1rem; }
-ul.no-bullet {
-  list-style: none; }
-
-/* Ordered Lists */
-ol {
-  margin-left: 1.4rem; }
-  ol li ul,
-  ol li ol {
-    margin-left: 1.25rem;
-    margin-bottom: 0; }
-
-/* Definition Lists */
-dl dt {
-  margin-bottom: 0.3rem;
-  font-weight: bold; }
-dl dd {
-  margin-bottom: 0.75rem; }
-
-/* Abbreviations */
-abbr,
-acronym {
-  text-transform: uppercase;
-  font-size: 90%;
-  color: #222222;
-  border-bottom: 1px dotted #dddddd;
-  cursor: help; }
-
-abbr {
-  text-transform: none; }
-
-/* Blockquotes */
-blockquote {
-  margin: 0 0 1.25rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
-  border-left: 1px solid #dddddd; }
-  blockquote cite {
-    display: block;
-    font-size: 0.8125rem;
-    color: #555555; }
-    blockquote cite:before {
-      content: "\2014 \0020"; }
-    blockquote cite a,
-    blockquote cite a:visited {
-      color: #555555; }
-
-blockquote,
-blockquote p {
-  line-height: 1.6;
-  color: #6f6f6f; }
-
-/* Microformats */
-.vcard {
-  display: inline-block;
-  margin: 0 0 1.25rem 0;
-  border: 1px solid #dddddd;
-  padding: 0.625rem 0.75rem; }
-  .vcard li {
-    margin: 0;
-    display: block; }
-  .vcard .fn {
-    font-weight: bold;
-    font-size: 0.9375rem; }
-
-.vevent .summary {
-  font-weight: bold; }
-.vevent abbr {
-  cursor: default;
-  text-decoration: none;
-  font-weight: bold;
-  border: none;
-  padding: 0 0.0625rem; }
-
-@media only screen and (min-width: 40.063em) {
-  h1, h2, h3, h4, h5, h6 {
-    line-height: 1.4; }
-
-  h1 {
-    font-size: 2.75rem; }
-
-  h2 {
-    font-size: 2.3125rem; }
-
-  h3 {
-    font-size: 1.6875rem; }
-
-  h4 {
-    font-size: 1.4375rem; } }
-/*
- * Print styles.
- *
- * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
- * Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
-*/
-.print-only {
-  display: none !important; }
-
-@media print {
-  * {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster: h5bp.com/s */
-    box-shadow: none !important;
-    text-shadow: none !important; }
-
-  a,
-  a:visited {
-    text-decoration: underline; }
-
-  a[href]:after {
-    content: " (" attr(href) ")"; }
-
-  abbr[title]:after {
-    content: " (" attr(title) ")"; }
-
-  .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
-    content: ""; }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid; }
-
-  thead {
-    display: table-header-group;
-    /* h5bp.com/t */ }
-
-  tr,
-  img {
-    page-break-inside: avoid; }
-
-  img {
-    max-width: 100% !important; }
-
-  @page {
-    margin: 0.5cm; }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3; }
-
-  h2,
-  h3 {
-    page-break-after: avoid; }
-
-  .hide-on-print {
-    display: none !important; }
-
-  .print-only {
-    display: block !important; }
-
-  .hide-for-print {
-    display: none !important; }
-
-  .show-for-print {
-    display: inherit !important; } }
 /* small displays */
 @media only screen {
   .show-for-small-only, .show-for-small-up, .show-for-small, .show-for-small-down, .hide-for-medium-only, .hide-for-medium-up, .hide-for-medium, .show-for-medium-down, .hide-for-large-only, .hide-for-large-up, .hide-for-large, .show-for-large-down, .hide-for-xlarge-only, .hide-for-xlarge-up, .hide-for-xlarge, .show-for-xlarge-down, .hide-for-xxlarge-only, .hide-for-xxlarge-up, .hide-for-xxlarge, .show-for-xxlarge-down {
@@ -3886,3 +3447,224 @@ th.hide-for-touch {
 
 .touch th.show-for-touch {
   display: table-cell !important; }
+
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+  Mixins available:
+    -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
+    -   background-size         - arguments: Width: 100%, Height: 100%
+    -   border-radius           - arguments: Radius: 5px
+    -   border-radius-separate  - arguments: Top Left: 5px, Top Left: 5px, Bottom Left: 5px, Bottom Right: 5px
+    -   box                     - arguments: Orientation: horizontal, Pack: center, Align: center
+    -   box-rgba                - arguments: R: 60, G: 3, B: 12, Opacity: 0.23, Color: #3C3C3C
+    -   box-shadow              - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   box-sizing              - arguments: Type: border-box
+    -   columns                 - arguments: Count: 3, Gap: 10
+    -   double-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Radius: 0
+    -   flex                    - arguments: Value: 1
+    -   flip                    - arguments: ScaleX: -1
+    -   font-face               - arguments: Font Family: myFont, Eot File Src: myFont.eot, Woff File Src: myFont.woff, Ttf File Src: myFont.ttf
+    -   opacity                 - arguments: Opacity: 0.5
+    -   outline radius          - arguments: Radius: 5px
+    -   resize                  - arguments: Direction: both
+    -   rotate                  - arguments: Degree: 0, M11: 0, M12: 0, M21: 0, M22: 0
+    CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
+    -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
+    -   transform               - arguments: Parameters: null
+    -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
+    -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
+
+------------------------------------------------------------- */
+/* BACKGROUND GRADIENT */
+/* BACKGROUND SIZE */
+/* BORDER RADIUS */
+/* BOX */
+/* BOX RGBA */
+/* BOX SHADOW */
+/* BOX SIZING */
+/* COLUMNS */
+/* DOUBLE BORDERS */
+/* FLEX */
+/* FLIP */
+/* FONT FACE */
+/* OPACITY */
+/* OUTLINE RADIUS */
+/* RESIZE */
+/* ROTATE*/
+/* TEXT SHADOW */
+/* TRANSFORM  */
+/* TRANSITION */
+/* TRIPLE BORDERS */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.top-nav {
+  max-width: none;
+  background-color: #e1e1e1; }
+  .top-nav .menu {
+    margin: 0;
+    padding: 0;
+    float: left; }
+    .top-nav .menu li {
+      float: left;
+      margin: 0;
+      font-size: .75rem;
+      /* 12px */
+      text-transform: uppercase;
+      list-style-type: none;
+      border-right: 1px solid #cbcbcb;
+      padding: 10px; }
+      .top-nav .menu li:first-child {
+        border-left: 1px solid #cbcbcb; }
+      .top-nav .menu li a {
+        color: #585858; }
+  .top-nav .toll-free {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    height: 48px;
+    width: 408px;
+    background: transparent url(file:///Users/julianodasilva/Code/go-pro/assets/images/toll-free-bg.png) no-repeat center center; }
+    .top-nav .toll-free dl {
+      margin: 0;
+      padding: 0; }
+      .top-nav .toll-free dl dt, .top-nav .toll-free dl dd {
+        color: #585858;
+        text-align: center;
+        margin: 0;
+        padding: 0; }
+      .top-nav .toll-free dl dt {
+        font-size: 1rem;
+        font-weight: 700; }
+      .top-nav .toll-free dl dd {
+        font-size: .75rem;
+        margin-top: 8px; }
+
+.main-nav > ul {
+  *zoom: 1;
+  margin: 0;
+  padding: 45px 0 0 0; }
+  .main-nav > ul:before, .main-nav > ul:after {
+    content: " ";
+    display: table; }
+  .main-nav > ul:after {
+    clear: both; }
+  .main-nav > ul li {
+    float: left;
+    font-size: 1.35rem;
+    /* 21px */
+    font-weight: 600;
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0; }
+    .main-nav > ul li a {
+      color: #0a8a80;
+      text-decoration: none; }
+
+.billboard {
+  height: 406px;
+  background: transparent url(file:///Users/julianodasilva/Code/go-pro/assets/images/billboard-image.png) no-repeat center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative; }
+  .billboard .marketing-text .marketing-text__headline {
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #fff;
+    margin: 25px 0 15px 0;
+    padding: 0;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25); }
+  .billboard .marketing-text .marketing-text__paragraph {
+    color: #fff;
+    font-size: 1.25rem;
+    padding-right: 200px;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25); }
+  .billboard .login-box {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 15.625rem;
+    /* 250px */
+    padding: 0 15px 0 15px;
+    position: absolute;
+    top: 130px;
+    right: 20px; }
+    .billboard .login-box .login-box__label {
+      font-size: 18px;
+      color: #fff;
+      background-color: #0f4b7d;
+      padding: 10px;
+      margin: -2px -16px 10px -16px;
+      font-weight: 600; }
+    .billboard .login-box .login-field {
+      margin: 0; }
+      .billboard .login-box .login-field .login-field__username, .billboard .login-box .login-field .login-field__password {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: .15rem; }
+      .billboard .login-box .login-field input {
+        margin-bottom: .25rem; }
+      .billboard .login-box .login-field .button {
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        padding: 10px 0;
+        margin: 10px 0 0 0; }
+    .billboard .login-box .login-box--help {
+      font-size: .75rem;
+      margin: 10px 0; }
+      .billboard .login-box .login-box--help a {
+        color: #585858; }
+
+.intro-paragraph .intro-paragraph__heading {
+  color: #0f4b7d;
+  font-size: 1.625rem;
+  /* 26px */
+  margin-bottom: 10px; }
+.intro-paragraph .intro-paragraph__text {
+  color: #585858;
+  line-height: 24px; }
+
+.find-network {
+  background-color: #0a8a80;
+  padding: 10px;
+  margin: 15px 0 0 0; }
+  .find-network .find-network__heading {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #096760;
+    padding: 10px;
+    margin: -10px -10px 0 -10px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25); }
+  .find-network .find-network__text {
+    color: #fff;
+    font-size: .875rem;
+    line-height: 18px;
+    margin: 10px 0 10px 0;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25); }
+  .find-network .find-network-form .find-network-form__message {
+    color: #fff;
+    margin-bottom: 5px; }
+  .find-network .find-network-form .find-network-form__id {
+    float: left;
+    width: 80%; }
+  .find-network .find-network-form .find-network-form--button {
+    float: left;
+    width: 20%; }

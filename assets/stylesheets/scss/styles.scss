@@ -1,5 +1,212 @@
 @import  
-  "_normalize",
-  "_foundation";
+  "normalize",
+  "foundation",
+  "mixins",
+  "components/path";
 
-    
+//
+// Colors
+//
+
+$default-green: #0a8a80;
+$default-text: #585858;
+$dark-blue: #0f4b7d;
+$dark-green: #096760;
+
+body {
+	font-family: $source-pro;
+	margin: 0;
+	padding: 0;
+}
+
+.top-nav {	
+	max-width: none;
+	background-color: #e1e1e1;
+	.menu {		
+		margin: 0;
+		padding: 0;		
+		float: left;
+		li {
+			float: left;
+			margin: 0;
+			font-size: .75rem; /* 12px */
+			text-transform: uppercase;
+			list-style-type: none;			
+			border-right: 1px solid #cbcbcb;
+			padding: 10px;
+			&:first-child {
+				border-left: 1px solid #cbcbcb;
+			}
+			a {
+				color: $default-text;
+			}
+		}
+	}
+	.toll-free {
+		//border: 1px solid red;
+		position: absolute;
+		top: 10px;
+		right: 0;
+		height: 48px;
+		width: 408px;
+		//background: url(../assets/images/toll-free-bg.png) 0px 0px no-repeat;
+		@include background("toll-free-bg.png");
+		dl {		
+			margin: 0;
+			padding: 0;
+			dt, dd {
+				color: $default-text;
+				text-align: center;
+				margin: 0;
+				padding: 0;
+			}
+			dt {
+				font-size: 1rem;
+				font-weight: 700;
+			}
+			dd {
+				font-size: .75rem;
+				margin-top: 8px;
+			}
+		}
+	}
+}
+
+.main-nav {	
+	> ul {	
+		@include clearfix;
+		margin: 0;
+		padding: 45px 0 0 0;
+		li {
+			float: left;
+			font-size: 1.35rem; /* 21px */
+			font-weight: 600;
+			list-style-type: none;
+			margin: 0 20px 0 0;
+			padding: 0;
+			a {
+				color: $default-green;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.billboard {
+	// border: 1px solid blue;
+	height: 406px;
+	@include background("billboard-image.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+	.marketing-text {		
+		.marketing-text__headline {
+			font-size: 55px;
+			font-weight: 600;
+			letter-spacing: -1px;
+			color: #fff;
+			margin: 25px 0 15px 0;
+			padding: 0;
+			text-shadow: 1px 1px 0px rgba(0,0,0,.25);
+		}
+		.marketing-text__paragraph {
+			color: #fff;
+			font-size: 1.25rem;
+			padding-right: 200px;
+			line-height: 26px;
+			margin: 0 0 15px 0;
+			text-shadow: 1px 1px 0px rgba(0,0,0,.25);
+		}
+	}
+	.login-box {
+		border: 1px solid #fff;
+		background-color: #fff;
+		width: 15.625rem; /* 250px */
+		//height: 242px;
+		padding: 0 15px 0 15px;
+		position: absolute;;
+		top: 130px;
+		right: 20px;
+		.login-box__label {
+			font-size: 18px;
+			color: #fff;
+			background-color: $dark-blue;
+			padding: 10px;
+			margin: -2px -16px 10px -16px; 
+			font-weight: 600;
+		}
+		.login-field {
+			margin: 0;
+			.login-field__username, .login-field__password {
+				font-size: 1rem;
+				font-weight: 600;
+				margin-bottom: .15rem;
+			}			
+			input {
+				margin-bottom: .25rem;
+			}
+			.button {
+				@include border-radius(5px);
+				padding: 10px 0;
+				margin: 10px 0 0 0;
+			}
+		}
+		.login-box--help {
+			font-size: .75rem;
+			margin: 10px 0;
+			a {
+				color: $default-text;
+			}
+		}
+	}
+}
+
+.intro-paragraph {
+	.intro-paragraph__heading {
+		color: $dark-blue;
+		font-size: 1.625rem; /* 26px */
+		margin-bottom: 10px;
+	}
+	.intro-paragraph__text {
+		color: $default-text;
+		line-height: 24px;		
+	}
+}
+
+.find-network {
+	background-color: $default-green;
+	padding: 10px;
+	margin: 15px 0 0 0;
+	.find-network__heading {
+		margin: 0;
+		padding: 0;
+		font-size: 18px;
+		color: #fff;		
+		background-color: $dark-green;
+		padding: 10px;
+		margin: -10px -10px 0 -10px;
+		text-shadow: 1px 1px 0px rgba(0,0,0,.25);
+	}
+	.find-network__text {
+		color: #fff;
+		font-size: .875rem;
+		line-height: 18px;
+		margin: 10px 0 10px 0;
+		text-shadow: 1px 1px 0px rgba(0,0,0,.25);
+	}
+	.find-network-form {
+		.find-network-form__message {
+			color: #fff;
+			margin-bottom: 5px;
+		}
+		.find-network-form__id {
+			float: left;
+			width: 80%;			
+		}
+		.find-network-form--button {
+			float: left;
+			width: 20%;
+		}
+	}
+}
