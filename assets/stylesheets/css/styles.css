@@ -3536,7 +3536,7 @@ body {
     right: 0;
     height: 48px;
     width: 408px;
-    background: transparent url(file:///Users/julianodasilva/Code/go-pro/assets/images/toll-free-bg.png) no-repeat center center; }
+    background: transparent url(../../images/toll-free-bg.png) no-repeat center center; }
     .top-nav .toll-free dl {
       margin: 0;
       padding: 0; }
@@ -3575,7 +3575,7 @@ body {
 
 .billboard {
   height: 406px;
-  background: transparent url(file:///Users/julianodasilva/Code/go-pro/assets/images/billboard-image.png) no-repeat center center;
+  background: transparent url(../../images/billboard-image.png) no-repeat center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
