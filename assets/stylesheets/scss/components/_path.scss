@@ -1,0 +1,7 @@
+// iMage Paths
+
+$imagedir: "file:///Users/julianodasilva/Code/go-pro/assets/images/";
+
+@mixin background($filename, $position:center center, $repeat: no-repeat) {
+	background: transparent url(#{$imagedir}#{$filename}) $repeat $position;
+}
