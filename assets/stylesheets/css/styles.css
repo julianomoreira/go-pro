@@ -3515,6 +3515,9 @@ th.hide-for-touch {
   margin-bottom: 10px;
   text-align: center; }
 
+p {
+  color: #585858; }
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
@@ -3789,3 +3792,58 @@ body {
   float: left;
   margin: 0 .75em 2em 0;
   display: block; }
+
+.join-conversation {
+  padding: 2rem 0; }
+  .join-conversation .join-conversation--title {
+    margin: 0;
+    padding: 0;
+    color: #0f4b7d;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    float: right;
+    width: 65.5%; }
+  .join-conversation .join-conversation--posts h4 {
+    margin: 1em 0 .5em 0; }
+    .join-conversation .join-conversation--posts h4 a {
+      color: #c97b00; }
+  .join-conversation .join-conversation--posts .date {
+    margin: 0 0 .75em 0;
+    padding: 0;
+    color: #0a8a80; }
+  .join-conversation .join-conversation--posts .excerpt {
+    margin: 0;
+    padding: 0;
+    line-height: 21px; }
+
+.upper-footer {
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25); }
+  .upper-footer ul {
+    margin: 0;
+    padding: 0; }
+    .upper-footer ul li {
+      list-style-type: none;
+      line-height: 28px; }
+      .upper-footer ul li a {
+        color: #0a8a80;
+        text-decoration: none; }
+      .upper-footer ul li a:hover {
+        text-decoration: underline; }
+    .upper-footer ul .leading {
+      color: #585858;
+      font-weight: bold; }
+
+.lower-footer {
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  margin-bottom: 2rem; }
+  .lower-footer .copyright {
+    background: transparent url(../../images/top-100.jpg) no-repeat center center;
+    background-position: top left;
+    padding-left: 50px; }
+    .lower-footer .copyright p {
+      margin: 0;
+      line-height: 20px; }
+      .lower-footer .copyright p a {
+        color: #0a8a80; }

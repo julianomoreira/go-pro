@@ -22,6 +22,10 @@ $orange: #c97b00;
 	text-align: center;
 }
 
+p {
+	color: $default-text;
+}
+
 body {
 	font-family: $source-pro;
 	margin: 0;
@@ -331,4 +335,79 @@ body {
 		margin: 0 .75em 2em 0;
 		display: block;		
 	}
+}
+
+
+.join-conversation {
+	padding: 2rem 0;
+	.join-conversation--title {
+		margin: 0;
+		padding: 0;
+		color: $dark-blue;
+		padding-bottom: 1.25rem;
+		border-bottom: 1px solid black(.25);
+		float: right;
+		width: 65.5%;
+	}
+	.join-conversation--posts {
+		h4 {
+			margin: 1em 0 .5em 0;
+			a {
+				color: $orange;
+			}
+		}		
+		.date {
+			margin: 0 0 .75em 0;
+			padding: 0;		
+			color: $default-green;	
+		}
+		.excerpt {
+			margin: 0;
+			padding: 0;
+			line-height: 21px;
+		}
+	}
+}
+
+
+.upper-footer {
+	padding: 2rem 0;
+	border-bottom: 1px solid black(.25);
+	ul {
+		margin: 0;
+		padding: 0;
+		li {
+			list-style-type: none;
+			line-height: 28px;
+			a {
+				color: $default-green;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+		}
+		.leading {
+			color: $default-text;
+			font-weight: bold;
+		}
+	}
+}
+
+.lower-footer {
+	padding: 2rem 0;
+	border-bottom: 1px solid black(.25);
+	margin-bottom: 2rem;
+	.copyright {
+		@include background("top-100.jpg");	
+		background-position: top left;
+		padding-left: 50px;
+		p {
+			margin: 0;
+			line-height: 20px;
+			a {
+				color: $default-green;
+			}
+		}
+	}	
 }
