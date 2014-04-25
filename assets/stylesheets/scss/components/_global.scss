@@ -345,6 +345,7 @@ $cursor-text-value: text !default;
     // Miscellaneous useful HTML classes
     .left   { float: left !important; }
     .right  { float: right !important; }
+    .text-center {text-align: center;}
     .clearfix     { @include clearfix; }
     .hide         { display: none; }
 
