@@ -1,4 +1,4 @@
-# Summary of the solution
+# Proposed Solution
 
 ### The everlasting problem with healthcare
 

@@ -1,4 +1,4 @@
-# Summary of the problem
+# Problem
 
 <img src="http://julianomoreira.github.io/go-pro/assets/images/preferredone-website.png" />
 
