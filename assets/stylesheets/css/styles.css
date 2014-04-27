@@ -3569,6 +3569,7 @@ body {
         font-size: .75rem;
         margin-top: 8px; }
     .top-nav .toll-free .more-info {
+      display: none;
       background-color: #e1e1e1;
       position: absolute;
       top: 25px;
