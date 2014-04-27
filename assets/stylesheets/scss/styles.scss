@@ -18,7 +18,7 @@ $orange: #c97b00;
 .section-title {
 	color: $dark-blue;
 	font-size: 1.625rem; /* 26px */
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	text-align: center;
 }
 
@@ -64,6 +64,12 @@ body {
 		width: 408px;
 		//background: url(../assets/images/toll-free-bg.png) 0px 0px no-repeat;
 		@include background("toll-free-bg.png");
+		a {
+			color: $dark-blue;
+		}
+		.trigger-dropdown {
+			cursor: pointer;
+		}
 		dl {		
 			margin: 0;
 			padding: 0;
@@ -82,7 +88,35 @@ body {
 				margin-top: 8px;
 			}
 		}
-	}
+		.more-info {			
+			background-color: #e1e1e1;
+			position: absolute;
+			top: 25px;
+			left: 95px;
+			width: 220px;
+			padding: 0px 10px 15px 10px;
+			z-index: 10;
+			@include border-radius(5px);
+			ul {
+				margin: 0;
+				padding: 0;
+				li {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					h4 {
+						margin: .5em 0 .25em 0;
+						padding:0;
+						color: $default-text;
+					}
+					p {
+						margin: 0;
+						padding: 0;
+					}
+				}
+			}
+		}
+	}	
 }
 
 .main-nav {	
@@ -104,11 +138,13 @@ body {
 		}
 	}
 }
-
+.header {
+	border-bottom: 5px solid $dark-green;
+}
 .billboard {
 	// border: 1px solid blue;
 	height: 406px;
-	@include background("billboard-image.png");
+	@include background("billboard-image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -178,7 +214,9 @@ body {
 		}
 	}
 }
-
+.getting-started {
+	border-top: 5px solid $dark-green;
+}
 .intro-paragraph {
 	.intro-paragraph__heading {
 		color: $dark-blue;
@@ -195,7 +233,7 @@ body {
 .find-network {
 	background-color: $default-green;
 	padding: 10px;
-	margin: 15px 0 0 0;
+	margin: 25px 0 0 0;
 	.find-network__heading {
 		margin: 0;
 		padding: 0;
@@ -300,6 +338,24 @@ body {
 }
 .health-title {
 	color: $default-green;	
+}
+.individual {	
+	padding-left: 60px;
+	.health-title {
+		@include background("icon-individual.png");
+		background-position: 50% 0;
+		padding: 120px 0 0 0;
+	}	
+}
+.group {
+		border-left: 1px solid black(.15);		
+		padding-left: 60px;
+		.health-title {
+			@include background("icon-groups.png");
+			background-position: 50% 0;
+			padding-top: 120px;
+		}
+	
 }
 .group-section {
 	color: $default-text;
