@@ -3512,7 +3512,7 @@ th.hide-for-touch {
   color: #0f4b7d;
   font-size: 1.625rem;
   /* 26px */
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   text-align: center; }
 
 p {
@@ -3550,6 +3550,10 @@ body {
     height: 48px;
     width: 408px;
     background: transparent url(../../images/toll-free-bg.png) no-repeat center center; }
+    .top-nav .toll-free a {
+      color: #0f4b7d; }
+    .top-nav .toll-free .trigger-dropdown {
+      cursor: pointer; }
     .top-nav .toll-free dl {
       margin: 0;
       padding: 0; }
@@ -3564,6 +3568,31 @@ body {
       .top-nav .toll-free dl dd {
         font-size: .75rem;
         margin-top: 8px; }
+    .top-nav .toll-free .more-info {
+      background-color: #e1e1e1;
+      position: absolute;
+      top: 25px;
+      left: 95px;
+      width: 220px;
+      padding: 0px 10px 15px 10px;
+      z-index: 10;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; }
+      .top-nav .toll-free .more-info ul {
+        margin: 0;
+        padding: 0; }
+        .top-nav .toll-free .more-info ul li {
+          list-style-type: none;
+          margin: 0;
+          padding: 0; }
+          .top-nav .toll-free .more-info ul li h4 {
+            margin: .5em 0 .25em 0;
+            padding: 0;
+            color: #585858; }
+          .top-nav .toll-free .more-info ul li p {
+            margin: 0;
+            padding: 0; }
 
 .main-nav > ul {
   *zoom: 1;
@@ -3585,9 +3614,12 @@ body {
       color: #0a8a80;
       text-decoration: none; }
 
+.header {
+  border-bottom: 5px solid #096760; }
+
 .billboard {
   height: 406px;
-  background: transparent url(../../images/billboard-image.png) no-repeat center center;
+  background: transparent url(../../images/billboard-image.jpg) no-repeat center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -3646,6 +3678,9 @@ body {
       background-color: #0a8a80;
       font-size: 1rem; }
 
+.getting-started {
+  border-top: 5px solid #096760; }
+
 .intro-paragraph .intro-paragraph__heading {
   color: #0f4b7d;
   font-size: 1.625rem;
@@ -3659,7 +3694,7 @@ body {
 .find-network {
   background-color: #0a8a80;
   padding: 10px;
-  margin: 15px 0 0 0; }
+  margin: 25px 0 0 0; }
   .find-network .find-network__heading {
     margin: 0;
     padding: 0;
@@ -3764,6 +3799,21 @@ body {
 
 .health-title {
   color: #0a8a80; }
+
+.individual {
+  padding-left: 60px; }
+  .individual .health-title {
+    background: transparent url(../../images/icon-individual.png) no-repeat center center;
+    background-position: 50% 0;
+    padding: 120px 0 0 0; }
+
+.group {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  padding-left: 60px; }
+  .group .health-title {
+    background: transparent url(../../images/icon-groups.png) no-repeat center center;
+    background-position: 50% 0;
+    padding-top: 120px; }
 
 .group-section {
   color: #585858;

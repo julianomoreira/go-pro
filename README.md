@@ -16,16 +16,20 @@ I worked and founded a startup, [Cympel](http://www.cympel.com), raised money an
 
 ## Tools
 
-### CSS/HTML/Javascript 
-
-I love Cascading Style Sheets. I love how simple it is. I love the syntax. It's so easy to use. It's a tool that every designer should be comfortable with. Designing for the web is about writing lean code, that's flexible and has as little redundancies as possible. It's about writing clean, organized, and easy-understand code for teams across an entire organization; it's about writing code that works yesterday, today, and tomorrow with no or very little maintenance required. 
-
-The pages in this exercise were hand-coded using Sublime Text 2 with a few awesome plugins, and the code is being tracked in Git and Github. I'm a strong advocate of using methodologies such as [BEM](http://bem.info), [SMACSS](http://smacss.com), and [OOCSS](http://oocss.org), specially for big organizations where communication and agile development are not their strong suit given the size and complexity of large teams.
-
 ### Paper, Photoshop, Sketch
 
 I used paper, Photoshop, Sketch, and a browser from concept to design. I'm new to Sketch so I'm still transitioning from Photoshop on a per project basis and where it makes the most sense. I don't believe in using only one tool for the job and I'm 
 very open to new areas of learning.
+
+### CSS/HTML/Javascript 
+
+I love Cascading Style Sheets. I love how simple it is. I love the syntax. It's so easy to use. It's a tool that every designer should be comfortable with. Designing for the web is about writing lean code, that's flexible and has as little redundancies as possible. It's about writing clean, organized, and easy-understand code for teams across an entire organization; it's about writing code that works yesterday, today, and tomorrow with no or very little maintenance required. 
+
+The pages in this exercise were hand-coded using Sublime Text 2 with a few awesome plugins, and the code is being tracked in Git and Github. Although I started creating my own [Responsive Framework](https://github.com/julianomoreira/Responsive-Framework), [Foundation](http://foundation.zurb.com) made the most sense for this project. I'm a strong advocate of using methodologies such as [BEM](http://bem.info), [SMACSS](http://smacss.com), and [OOCSS](http://oocss.org), specially for big organizations where communication and agile development are not their strong suit given the size and complexity of large teams.
+
+
+
+
 
 ### Animations
 
