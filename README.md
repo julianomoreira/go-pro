@@ -27,12 +27,9 @@ I love Cascading Style Sheets. I love how simple it is. I love the syntax. It's 
 
 The pages in this exercise were hand-coded using Sublime Text 2 with a few awesome plugins, and the code is being tracked in Git and Github. Although I started creating my own [Responsive Framework](https://github.com/julianomoreira/Responsive-Framework), [Foundation](http://foundation.zurb.com) made the most sense for this project. I'm a strong advocate of using methodologies such as [BEM](http://bem.info), [SMACSS](http://smacss.com), and [OOCSS](http://oocss.org), specially for big organizations where communication and agile development are not their strong suit given the size and complexity of large teams.
 
-
-
-
-
 ### Animations
 
+(Not yet implemented)
 
-## Process 
+
 
