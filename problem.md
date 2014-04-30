@@ -9,11 +9,10 @@ A few years ago, I was involved in a car accident which has changed my life comp
 Existing website: [https://www.preferredone.com](PreferredOne)
 
 1. Lack of clarity in information 
-2. Lack of good visual design
-3. Lack of well defined Information Architecture
+2. Lack of visual design (hierarchy, typography, grid, etc)
+3. Lack of micro-interactions (these tiny little details can make a website into a signature moment. it can create a hook with users.)
 4. Lack in providing a delightful experience
 
-In this exercise, I'm addressing the issues mentioned above 
 
 
 
