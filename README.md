@@ -18,6 +18,7 @@ I worked and founded a startup, [Cympel](http://www.cympel.com), raised money an
 
 * [Current Site](https://www.preferredone.com/default.aspx)
 * [Redesigned Site](http://julianomoreira.github.io/go-pro/)
+* [Dashboard (work in progress)](http://julianomoreira.github.io/go-pro/assets/images/dashboard.jpg)
 
 ## Tools
 
