@@ -14,6 +14,11 @@ I worked and founded a startup, [Cympel](http://www.cympel.com), raised money an
 * [Proposed Solution](https://github.com/julianomoreira/go-pro/blob/master/problem.md)
 
 
+## Redesign
+
+* [Current Site](https://www.preferredone.com/default.aspx)
+* [Redesigned Site](http://julianomoreira.github.io/go-pro/)
+
 ## Tools
 
 ### Paper, Photoshop, Sketch
